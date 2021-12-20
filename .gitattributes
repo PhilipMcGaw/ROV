@@ -1,0 +1,21 @@
+###############################################################################
+# Set default behavior to automatically normalize line endings.
+###############################################################################
+
+* text=auto
+
+###############################################################################
+# diff behavior for common document formats
+#
+# https://tante.cc/2010/06/23/managing-zip-based-file-formats-in-git/
+#
+# Convert binary document formats to text before diffing them. This feature
+# is only available from the command line. Turn it on by uncommenting the
+# entries below.
+###############################################################################
+
+*.pdf   diff=astextplain
+*.rtf   diff=astextplain
+*.xlsx	diff=zip
+*.pptx	diff=zip
+*.docx  diff=zip
