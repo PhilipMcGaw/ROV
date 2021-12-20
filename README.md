@@ -1,9 +1,8 @@
-# SwarmBot
+# ROV
 
 ## Physical design constraints
 
-* Smallest 3D Printer maximum dimensions 100 x 100 x 100
-* Largest Cheap PCB from China 100 x 100 FR4 (50¢ each)
+* todo
 
 ## People who have contributed
 
