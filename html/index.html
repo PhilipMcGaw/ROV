@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>ROV</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="/static/fa/font-awesome.css"/>
+    
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+
+    <!-- Icons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/static/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/static/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/static/favicon-16x16.png">
+    <link rel="manifest" href="/static/site.webmanifest">
+
+  </head>
+  <body onload="upTime(); batteryLevel()">
+    <!-- Start your project here-->
+    
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
+  <!-- Container wrapper -->
+  <div class="container-fluid">
+
+    <!-- Navbar brand -->
+    <a class="navbar-brand" href="/">ROV</a>
+
+    <!-- Toggle button -->
+    <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="fas fa-bars"></i>
+    </button>
+
+    <!-- Collapsible wrapper -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+        <!-- Link -->
+<!--        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li> -->
+      </ul>
+
+<!-- Icons -->
+      <ul class="navbar-nav d-flex flex-row me-1">
+
+
+<!-- Battery Level -->
+<!-- MQTT System/Battery/Level --> 
+         <li class="nav-item me-3 me-lg-0">
+            <a class="nav-link" href="#batteryLevel" id="batteryLevel">Error</a>
+        </li>
+<!-- MQTT System/Battery/Voltage --> 
+        <li class="nav-item me-3 me-lg-0">
+            <a class="nav-link" id="batteryVoltage">--.-- V</a>
+        </li>
+
+<!-- seperater -->
+        <li class="nav-item me-3 me-lg-0">
+            <a class="nav-link">|</a>
+        </li>
+<!-- End Battery Level -->
+
+
+<!-- MQTT System/Temperature --> 
+
+         <li class="nav-item me-3 me-lg-0">
+            <a class="nav-link" href="#Thermometer"><i class="fas fa-thermometer-half fa-lg"></i> nn &deg;C</a>
+        </li>
+        <li class="nav-item me-3 me-lg-0">
+            <a class="nav-link">|</a>
+        </li>
+        
+<!-- heading -->
+
+<!-- MQTT System/Heading --> 
+         <li class="nav-item me-3 me-lg-0">
+            <a class="nav-link" href="#Compass"><i class="far fa-compass fa-lg"></i> 180&deg;</a>
+        </li>
+        
+        <li class="nav-item me-3 me-lg-0">
+            <a class="nav-link">|</a>
+        </li>
+
+<!-- MQTT System/Uptime --> 
+         <li class="nav-item me-3 me-lg-0">
+            <a class="nav-link" href="#UpTime"><i class="fas fa-stopwatch fa-lg"></i></a>
+        </li>
+         <li class="nav-item me-3 me-lg-0">
+            <a class="nav-link" href="#UpTime" id="upTime">hh:mm:ss</a>
+        </li>
+        <li class="nav-item me-3 me-lg-0">
+            <a class="nav-link">|</a>
+        </li>
+         <li class="nav-item me-3 me-lg-0">
+            <a class="nav-link" href="/videos/"><i class="fa-solid fa-film fa-lg"></i></a>
+        </li>
+
+         <li class="nav-item me-3 me-lg-0">
+            <a class="nav-link" href="/rpi/"><i class="fa-brands fa-raspberry-pi fa-lg"></i></a>
+        </li>
+         <li class="nav-item me-3 me-lg-0">
+            <a class="nav-link" href="/info/"><i class="fas fa-info fa-lg"></i></a>
+        </li>
+
+        </li>
+      </ul>
+
+    </div>
+  </div>
+  <!-- Container wrapper -->
+</nav>
+<!-- Navbar -->
+
+<script>
+function upTime() {
+  const today = new Date();
+  let h = today.getHours();
+  let m = today.getMinutes();
+  let s = today.getSeconds();
+  m = checkTime(m);
+  s = checkTime(s);
+  document.getElementById('upTime').innerHTML =  h + ":" + m + ":" + s;
+  setTimeout(upTime, 500);
+}
+
+function checkTime(i) {
+  if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+  return i;
+}
+</script>
+
+<script>
+function batteryLevel() {
+    let level = 100;
+  
+<!-- less than 15 % -->  
+  if (level > 15) {
+      let battery = "fas fa-battery-empty fa-lg";
+      return battery;
+    }
+    <!-- less than 30 % -->
+   elseif (level > 30) {
+      let battery = "fas fa-battery-quarter fa-lg";
+      return battery;
+    }
+<!-- less than 65 % -->
+   elseif (level > 65) {
+      let battery = "fas fa-battery-half fa-lg";
+      return battery;
+    }
+<!-- less than 90 -->
+   elseif (level > 90) {
+      let battery = "fas fa-battery-three-quarters fa-lg";
+      return battery;
+    }
+<!-- else -->
+   else {
+      let battery = "fas fa-battery-full fa-lg";
+      return battery;
+    }
+
+  document.getElementById('batteryLevel').innerHTML =  "<i class=" + battery + "></i>";
+  setTimeout(batteryLevel, 10000);
+}
+
+</script>
+
+<!---
+less than 15 %
+        <li class="nav-item me-3 me-lg-0">
+            <a class="nav-link" href="#Empty_Battery"><i class="fas fa-battery-empty fa-lg"></i> 0%</a>
+        </li>
+less than 30 %
+         <li class="nav-item me-3 me-lg-0">
+            <a class="nav-link" href="#Quater_Battery"><i class="fas fa-battery-quarter fa-lg"></i> 25%</a>
+        </li>
+less than 65 %
+         <li class="nav-item me-3 me-lg-0">
+            <a class="nav-link" href="#Half_Battery"><i class="fas fa-battery-half fa-lg"></i> 50%</a>
+        </li>
+less than 90
+         <li class="nav-item me-3 me-lg-0">
+            <a class="nav-link" href="#ThreeQuater_Battery"><i class="fas fa-battery-three-quarters fa-lg"></i> 75%</a>
+        </li>
+else
+         <li class="nav-item me-3 me-lg-0">
+            <a class="nav-link" href="#Full_Battery"><i class="fas fa-battery-full fa-lg"></i> 100%</a>
+        </li>
+--->
+
+    <div class="container">
+      <div class="d-flex justify-content-center align-items-center" style="height: 100vh">
+        <div class="text-center">
+          <img class="mb-4" src="https://mdbootstrap.com/img/logo/mdb-transparent-250px.png" style="width: 250px; height: 90px" />
+          <h5 class="mb-3">Thank you for using our product. We're glad you're with us.</h5>
+          <p class="mb-3">MDB Team</p>
+          <a class="btn btn-primary btn-lg" href="https://mdbootstrap.com/docs/standard/getting-started/" target="_blank" role="button">Start MDB tutorial</a> 
+        </div>
+      </div>
+    </div>
+    <!-- End your project here-->
+
+    <!-- MDB -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript"></script>
+  </body>
+</html>
