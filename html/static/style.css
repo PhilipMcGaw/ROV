@@ -5,8 +5,7 @@
 .fa-battery-empty {
     color: red;
     animation: blinker 1s linear infinite;
-}
-}
+    }
 
 .fa-battery-full {
     color: green;
