@@ -8,6 +8,7 @@
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="static/fa/font-awesome.css"/>
+    <link rel="stylesheet" href="static/style.css"/>
     
     <!-- MDB -->
     <link rel="stylesheet" href="css/mdb.min.css" />
@@ -137,34 +138,30 @@ function checkTime(i) {
 <script>
 function batteryLevel() {
     let level = 100;
+    let battery = "";
   
 <!-- less than 15 % -->  
-  if (level > 15) {
-      let battery = "fas fa-battery-empty fa-lg";
-      return battery;
+  if (level < 15) {
+      battery += "fa-battery-empty";
     }
     <!-- less than 30 % -->
-   elseif (level > 30) {
-      let battery = "fas fa-battery-quarter fa-lg";
-      return battery;
+   else if (level < 30) {
+      battery = "fa-battery-quarter";
     }
 <!-- less than 65 % -->
-   elseif (level > 65) {
-      let battery = "fas fa-battery-half fa-lg";
-      return battery;
+   else if (level < 65) {
+      battery = "fa-battery-half";
     }
 <!-- less than 90 -->
-   elseif (level > 90) {
-      let battery = "fas fa-battery-three-quarters fa-lg";
-      return battery;
+   else if (level < 90) {
+       battery = "fa-battery-three-quarters";
     }
 <!-- else -->
    else {
-      let battery = "fas fa-battery-full fa-lg";
-      return battery;
+      battery = "fa-battery-full";
     }
 
-  document.getElementById('batteryLevel').innerHTML =  "<i class=" + battery + "></i>";
+  document.getElementById('batteryLevel').innerHTML =  "<i class=\"fas " + battery + " fa-lg\"></i>";
   setTimeout(batteryLevel, 10000);
 }
 
