@@ -1,0 +1,6 @@
+annotation %Y.%M.%D - %h:%m:%s
+video_stabilisation 1
+rotation 180
+video_width 1296
+video_height 972
+hdmi_preview 1

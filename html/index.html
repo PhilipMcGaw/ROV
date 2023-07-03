@@ -20,22 +20,27 @@
     <link rel="icon" type="image/png" sizes="32x32" href="static/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="static/favicon-16x16.png">
     <link rel="manifest" href="static/site.webmanifest">
+    
+    <script src="js/script.js"></script>
+	<link rel="stylesheet" href="css/style_minified.css" />
 
   </head>
   
-<body onload="upTime(); batteryLevel()">
+<body onload="upTime(); batteryLevel(); setTimeout('init(0,25,1);', 100);"">
 <header>
 <!-- Start your project here-->
     
 <!--Main Navigation-->
-<nav   <nav  style="z-index: 1;
+ <nav  style="z-index: 1;
              min-height: 58.59px;"
-            class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
+            class="navbar navbar-expand-lg bg-dark navbar-dark">
   <!-- Container wrapper -->
   <div class="container-fluid">
 
     <!-- Navbar brand -->
-    <a class="navbar-brand" href="#">ROV</a>
+    <a class="navbar-brand" href="#">
+        <i class="fa-solid fa-robot fa-lg" text-secondary"> ROV</i>
+        </a>
 
     <!-- Toggle button -->
     <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -120,16 +125,31 @@
   </div>
 </nav>
 
+
+  <!-- Background image -->
+  <div class="bg-image vh-100" style="
+                                      margin-top: -58.59px;
+                                      background-image: url('https://mdbcdn.b-cdn.net/img/new/fluid/city/018.jpg');">
+                                    <img id="mjpeg_dest" />
+
+    <!-- Container -->
+    <div class="h-100 d-flex justify-content-center align-items-end">
+
+      <!-- Call to action -->
+      <div class="text-white text-center">
+        <h1 class="mb-3">Whoah, what a view!</h1>
+        <h5 class="mb-4">Learning web design is such an amazing thing</h5>
+        <!-- <a class="btn btn-primary" href="#" role="button">Learn with me</a> -->
+      </div>
+
+
 </header>
 <!--Main Navigation-->
 
 <!--Main layout-->
 <main>
   <!-- Background image -->
-<div  class="bg-image vh-100"
-      style="
-             background-image: url('https://mdbcdn.b-cdn.net/img/new/fluid/city/018.jpg');">
-</div>
+
 
 
 
@@ -137,9 +157,16 @@
 <!--Main layout-->
 
 <!--Footer-->
-<footer>
 
+<footer class="bg-light text-center text-lg-start">
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: hsla(0, 0%, 0%, 0.2);">
+    &copy; 2023 Copyright:
+    <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+  </div>
+  <!-- Copyright -->
 </footer>
+
 <!--Footer-->
 <!-- End your project here-->
 
