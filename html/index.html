@@ -169,16 +169,16 @@ function checkTime(i) {
 
 <script type="text/javascript">
 function batteryLevel() {
-    let level = 10;
+    let level = 81;
     let battery = "";
   
 <!-- less than 15 % -->  
   if (level < 20) {
-      battery = "fa-battery-empty";
+      battery = "fa-battery-empty text-danger";
     }
     <!-- less than 30 % -->
    else if (level < 40) {
-      battery = "fa-battery-quarter";
+      battery = "fa-battery-quarter text-warning";
     }
 <!-- less than 65 % -->
    else if (level < 60) {
@@ -190,7 +190,7 @@ function batteryLevel() {
     }
 <!-- else -->
    else {
-      battery = "fa-battery-full";
+      battery = "fa-battery-full text-success";
     }
 
   document.getElementById('batteryLevel').innerHTML =  "<i class=\"fas " + battery + " fa-lg\"></i>";
