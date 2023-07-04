@@ -4,7 +4,7 @@
   <nav  style="z-index: 1;
                min-height: 58.59px;
                "
-       class="navbar navbar-expand-lg navbar-dark bg-dark">
+       class="navbar navbar-expand-lg navbar-dark bg-dark .navbar-fixed-top">
 
     <!-- Container wrapper -->
     <div class="container">
