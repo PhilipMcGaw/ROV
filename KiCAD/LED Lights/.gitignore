@@ -1,0 +1,4 @@
+# backup file
+*.bak
+*.kicad_pcb-bak
+_saved_ledCube.sch

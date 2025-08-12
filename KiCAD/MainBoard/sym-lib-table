@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "MainBoard-rescue")(type "Legacy")(uri "${KIPRJMOD}/MainBoard-rescue.lib")(options "")(descr ""))
+  (lib (name "custom_lib")(type "Legacy")(uri "${KIPRJMOD}/KicadLibs/custom_lib.lib")(options "")(descr ""))
+)
