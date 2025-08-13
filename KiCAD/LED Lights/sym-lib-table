@@ -1,5 +1,5 @@
 (sym_lib_table
-  (version 0)
-  (lib (name "ledCube-rescue")(type "Legacy")(uri "${KIPRJMOD}/ledCube-rescue.lib")(options "")(descr ""))
-  (lib (name "custom")(type "Legacy")(uri "${KIPRJMOD}/lib/custom.lib")(options "")(descr ""))
+  (version 7)
+  (lib (name "ledCube-rescue")(type "KiCad")(uri "${KIPRJMOD}/ledCube-rescue.kicad_sym")(options "")(descr ""))
+  (lib (name "custom")(type "KiCad")(uri "${KIPRJMOD}/lib/custom.kicad_sym")(options "")(descr ""))
 )
