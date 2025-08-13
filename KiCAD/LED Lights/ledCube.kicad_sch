@@ -4417,7 +4417,7 @@
 		)
 		(uuid "36d22c5f-5695-4ec5-b2fd-cda7b08473d9")
 	)
-	(text "400mA current linit"
+	(text "400 mA current limit"
 		(exclude_from_sim no)
 		(at 156.21 66.04 0)
 		(effects
