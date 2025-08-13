@@ -618,26 +618,8 @@
 		)
 		(symbol "DYS_mini_ESC_1_1"
 			(pin input line
-				(at -15.24 3.81 0)
-				(length 5.08)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -15.24 0 0)
-				(length 5.08)
+				(at -12.7 3.81 0)
+				(length 2.54)
 				(name "PWM"
 					(effects
 						(font
@@ -653,9 +635,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at -15.24 -3.81 0)
-				(length 5.08)
+			(pin power_in line
+				(at 0 8.89 270)
+				(length 2.54)
 				(name "VCC"
 					(effects
 						(font
@@ -671,9 +653,27 @@
 					)
 				)
 			)
-			(pin input line
-				(at 15.24 3.81 180)
-				(length 5.08)
+			(pin power_in line
+				(at 0 -8.89 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 12.7 3.81 180)
+				(length 2.54)
 				(name "OUT_A"
 					(effects
 						(font
@@ -689,9 +689,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at 15.24 0 180)
-				(length 5.08)
+			(pin output line
+				(at 12.7 0 180)
+				(length 2.54)
 				(name "OUT_B"
 					(effects
 						(font
@@ -707,9 +707,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at 15.24 -3.81 180)
-				(length 5.08)
+			(pin output line
+				(at 12.7 -3.81 180)
+				(length 2.54)
 				(name "OUT_C"
 					(effects
 						(font
