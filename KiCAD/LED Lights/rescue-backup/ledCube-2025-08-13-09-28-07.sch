@@ -1,0 +1,380 @@
+EESchema Schematic File Version 2
+LIBS:ledCube-rescue
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:custom
+LIBS:ledCube-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L AL8805W5 U1
+U 1 1 5863635E
+P 4200 3125
+F 0 "U1" H 3900 3625 60  0000 C CNN
+F 1 "AL8805W5" H 4200 2500 60  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23-5" H 4200 2875 60  0001 C CNN
+F 3 "https://cdn.sparkfun.com/datasheets/Components/LED/AL8805.pdf" H 4200 2875 60  0001 C CNN
+F 4 "DigiKey" H 4200 3125 60  0001 C CNN "Vender"
+F 5 "AL8805W5-7DICT-ND" H 4200 3125 60  0001 C CNN "Part #"
+	1    4200 3125
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1
+U 1 1 586363C1
+P 4875 2925
+F 0 "R1" V 4955 2925 50  0000 C CNN
+F 1 "0.5" V 4875 2925 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206" V 4805 2925 50  0001 C CNN
+F 3 "" H 4875 2925 50  0000 C CNN
+F 4 "DigiKey" V 4875 2925 60  0001 C CNN "Vender"
+F 5 "311-0.5LWCT-ND" V 4875 2925 60  0001 C CNN "Part #"
+	1    4875 2925
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C1
+U 1 1 58636452
+P 4875 3225
+F 0 "C1" H 4900 3325 50  0000 L CNN
+F 1 "1uF" H 4900 3125 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 4913 3075 50  0001 C CNN
+F 3 "" H 4875 3225 50  0000 C CNN
+	1    4875 3225
+	1    0    0    -1  
+$EndComp
+$Comp
+L L_Small L1
+U 1 1 586364CB
+P 4875 3475
+F 0 "L1" H 4925 3475 50  0000 L CNN
+F 1 "33uH" H 4675 3475 50  0000 L CNN
+F 2 "footprint:inductor_33uH" H 4875 3475 50  0001 C CNN
+F 3 "" H 4875 3475 50  0000 C CNN
+F 4 "DigiKey" H 4875 3475 60  0001 C CNN "Vedner"
+F 5 "SRN6045-330MCT-ND" H 4875 3475 60  0001 C CNN "Part #"
+	1    4875 3475
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 2775 3100 2775
+Text Label 3100 2775 0    60   ~ 0
+PWM
+$Comp
+L GND #PWR01
+U 1 1 58636767
+P 3250 3575
+F 0 "#PWR01" H 3250 3325 50  0001 C CNN
+F 1 "GND" H 3250 3425 50  0000 C CNN
+F 2 "" H 3250 3575 50  0000 C CNN
+F 3 "" H 3250 3575 50  0000 C CNN
+	1    3250 3575
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3250 3575 3650 3575
+$Comp
+L R R2
+U 1 1 58636880
+P 5100 2925
+F 0 "R2" V 5180 2925 50  0000 C CNN
+F 1 "0.5" V 5100 2925 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206" V 5030 2925 50  0001 C CNN
+F 3 "" H 5100 2925 50  0000 C CNN
+F 4 "DigiKey" V 5100 2925 60  0001 C CNN "Vender"
+F 5 "311-0.5LWCT-ND" V 5100 2925 60  0001 C CNN "Part #"
+	1    5100 2925
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 2775 6125 2775
+Connection ~ 4875 2775
+Connection ~ 5100 2775
+Wire Wire Line
+	4750 3075 5575 3075
+Text Label 5225 3075 0    60   ~ 0
+LED+/L
+Connection ~ 4875 3075
+Connection ~ 5100 3075
+Wire Wire Line
+	4875 3375 5575 3375
+Text Label 5225 3375 0    60   ~ 0
+LED-/L
+Connection ~ 4875 3375
+$Comp
+L D_Schottky D2
+U 1 1 58636A79
+P 5800 3100
+F 0 "D2" H 5800 3200 50  0000 C CNN
+F 1 "BAT20JFILM" H 5800 3000 50  0000 C CNN
+F 2 "Diodes_SMD:SOD-323_HandSoldering" H 5800 3100 50  0001 C CNN
+F 3 "http://www.bourns.com/docs/Product-Datasheets/SRN6045.pdf" H 5800 3100 50  0001 C CNN
+F 4 "DigiKey" H 5800 3100 60  0001 C CNN "Vender"
+F 5 "497-3381-1-ND" H 5800 3100 60  0001 C CNN "Part #"
+	1    5800 3100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4750 3575 5800 3575
+Wire Wire Line
+	5800 3575 5800 3250
+Connection ~ 4875 3575
+Wire Wire Line
+	6125 2775 6125 2875
+Wire Wire Line
+	5800 2950 5800 2775
+Connection ~ 5800 2775
+$Comp
+L C C2
+U 1 1 58636C29
+P 6125 3025
+F 0 "C2" H 6150 3125 50  0000 L CNN
+F 1 "2.2uF" H 6150 2925 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 6163 2875 50  0001 C CNN
+F 3 "" H 6125 3025 50  0000 C CNN
+	1    6125 3025
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR02
+U 1 1 58636CAF
+P 6125 3175
+F 0 "#PWR02" H 6125 2925 50  0001 C CNN
+F 1 "GND" H 6125 3025 50  0000 C CNN
+F 2 "" H 6125 3175 50  0000 C CNN
+F 3 "" H 6125 3175 50  0000 C CNN
+	1    6125 3175
+	1    0    0    -1  
+$EndComp
+Text Notes 4875 2700 0    60   Italic 0
+400mA current linit
+$Comp
+L LED D1
+U 1 1 58637B8A
+P 4075 4625
+F 0 "D1" H 4075 4725 50  0000 C CNN
+F 1 "CXA1304" H 4075 4525 50  0000 C CNN
+F 2 "footprint:CXA1304" H 4075 4625 50  0001 C CNN
+F 3 "http://docs-asia.electrocomponents.com/webdocs/12d3/0900766b812d38b0.pdf" H 4075 4625 50  0001 C CNN
+F 4 "DigiKey" H 4075 4625 60  0001 C CNN "Vender"
+F 5 "CXA1304-0000-000N00B440F-ND" H 4075 4625 60  0001 C CNN "Part #"
+	1    4075 4625
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3325 4625 3925 4625
+Wire Wire Line
+	4225 4625 4900 4625
+Text Label 3325 4625 0    60   ~ 0
+LED+/U
+Text Label 4550 4625 0    60   ~ 0
+LED-/U
+$Comp
+L CONN_01X03 P1
+U 1 1 58638065
+P 8400 3150
+F 0 "P1" H 8400 3350 50  0000 C CNN
+F 1 "CONN_01X03" V 8500 3150 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x03" H 8400 3150 50  0001 C CNN
+F 3 "" H 8400 3150 50  0000 C CNN
+	1    8400 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 3050 7825 3050
+$Comp
+L GND #PWR03
+U 1 1 586381CE
+P 7825 3050
+F 0 "#PWR03" H 7825 2800 50  0001 C CNN
+F 1 "GND" H 7825 2900 50  0000 C CNN
+F 2 "" H 7825 3050 50  0000 C CNN
+F 3 "" H 7825 3050 50  0000 C CNN
+	1    7825 3050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8200 3150 7825 3150
+Wire Wire Line
+	8200 3250 7825 3250
+Text Label 7825 3250 0    60   ~ 0
+PWM
+Text Label 5825 2775 0    60   ~ 0
+V_BAT
+Text Label 7825 3150 0    60   ~ 0
+V_BAT
+$Comp
+L CONN_01X02 P2
+U 1 1 58639BF8
+P 6750 2925
+F 0 "P2" H 6750 3075 50  0000 C CNN
+F 1 "CONN_01X02" V 6850 2925 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x02" H 6750 2925 50  0001 C CNN
+F 3 "" H 6750 2925 50  0000 C CNN
+	1    6750 2925
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X02 P3
+U 1 1 58639CF0
+P 6750 3425
+F 0 "P3" H 6750 3575 50  0000 C CNN
+F 1 "CONN_01X02" V 6850 3425 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x02" H 6750 3425 50  0001 C CNN
+F 3 "" H 6750 3425 50  0000 C CNN
+	1    6750 3425
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6950 2875 7400 2875
+Wire Wire Line
+	6950 2975 7075 2975
+Wire Wire Line
+	7075 2975 7075 2875
+Connection ~ 7075 2875
+Wire Wire Line
+	6950 3375 7400 3375
+Wire Wire Line
+	6950 3475 7075 3475
+Wire Wire Line
+	7075 3475 7075 3375
+Connection ~ 7075 3375
+Text Label 7050 2875 0    60   ~ 0
+LED+/L
+Text Label 7050 3375 0    60   ~ 0
+LED-/L
+$Comp
+L CONN_01X02 P4
+U 1 1 5863A088
+P 6625 4200
+F 0 "P4" H 6625 4350 50  0000 C CNN
+F 1 "CONN_01X02" V 6725 4200 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x02" H 6625 4200 50  0001 C CNN
+F 3 "" H 6625 4200 50  0000 C CNN
+	1    6625 4200
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X02 P5
+U 1 1 5863A08E
+P 6625 4700
+F 0 "P5" H 6625 4850 50  0000 C CNN
+F 1 "CONN_01X02" V 6725 4700 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x02" H 6625 4700 50  0001 C CNN
+F 3 "" H 6625 4700 50  0000 C CNN
+	1    6625 4700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6825 4150 7275 4150
+Wire Wire Line
+	6825 4250 6950 4250
+Wire Wire Line
+	6950 4250 6950 4150
+Connection ~ 6950 4150
+Wire Wire Line
+	6825 4650 7275 4650
+Wire Wire Line
+	6825 4750 6950 4750
+Wire Wire Line
+	6950 4750 6950 4650
+Connection ~ 6950 4650
+Text Label 6925 4150 0    60   ~ 0
+LED+/U
+Text Label 6925 4650 0    60   ~ 0
+LED-/U
+Wire Notes Line
+	2975 3875 8675 3875
+Wire Notes Line
+	8675 3875 8675 5125
+Wire Notes Line
+	8675 5125 2975 5125
+Wire Notes Line
+	2975 5125 2975 3875
+Wire Notes Line
+	2975 2550 8675 2550
+Wire Notes Line
+	8675 2550 8675 3800
+Wire Notes Line
+	8675 3800 2975 3800
+Wire Notes Line
+	2975 3800 2975 2550
+Text Notes 8050 2700 0    60   Italic 0
+Lower Board
+Text Notes 8050 4000 0    60   Italic 0
+Upper Board
+$Comp
+L R R3
+U 1 1 586A07C4
+P 3450 2925
+F 0 "R3" H 3520 2971 50  0000 L CNN
+F 1 "10k" V 3450 2850 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 3520 2834 50  0001 L CNN
+F 3 "" H 3450 2925 50  0000 C CNN
+	1    3450 2925
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR04
+U 1 1 586A0877
+P 3450 3075
+F 0 "#PWR04" H 3450 2825 50  0001 C CNN
+F 1 "GND" H 3450 2925 50  0000 C CNN
+F 2 "" H 3450 3075 50  0000 C CNN
+F 3 "" H 3450 3075 50  0000 C CNN
+	1    3450 3075
+	1    0    0    -1  
+$EndComp
+Connection ~ 3450 2775
+$Comp
+L PWR_FLAG #FLG?
+U 1 1 586A0E3F
+P 3425 3575
+F 0 "#FLG?" H 3425 3650 50  0001 C CNN
+F 1 "PWR_FLAG" H 3425 3749 50  0000 C CNN
+F 2 "" H 3425 3575 50  0000 C CNN
+F 3 "" H 3425 3575 50  0000 C CNN
+	1    3425 3575
+	1    0    0    -1  
+$EndComp
+Connection ~ 3425 3575
+$EndSCHEMATC
