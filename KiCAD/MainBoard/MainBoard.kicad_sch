@@ -28648,7 +28648,7 @@
 	)
 	(text "Power Control"
 		(exclude_from_sim no)
-		(at -127.508 2.032 0)
+		(at -135.128 2.032 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -30180,7 +30180,7 @@
 	)
 	(wire
 		(pts
-			(xy -172.72 10.16) (xy -161.29 10.16)
+			(xy -163.83 10.16) (xy -161.29 10.16)
 		)
 		(stroke
 			(width 0)
@@ -30600,7 +30600,7 @@
 	)
 	(polyline
 		(pts
-			(xy -110.49 52.07) (xy -182.88 52.07)
+			(xy -116.84 52.07) (xy -186.69 52.07)
 		)
 		(stroke
 			(width 0)
@@ -30710,7 +30710,7 @@
 	)
 	(wire
 		(pts
-			(xy -128.27 10.16) (xy -115.57 10.16)
+			(xy -128.27 10.16) (xy -125.73 10.16)
 		)
 		(stroke
 			(width 0)
@@ -31470,7 +31470,7 @@
 	)
 	(polyline
 		(pts
-			(xy -182.88 -1.27) (xy -110.49 -1.27)
+			(xy -186.69 -1.27) (xy -116.84 -1.27)
 		)
 		(stroke
 			(width 0)
@@ -32450,7 +32450,7 @@
 	)
 	(wire
 		(pts
-			(xy -180.34 30.48) (xy -173.99 30.48)
+			(xy -176.53 30.48) (xy -173.99 30.48)
 		)
 		(stroke
 			(width 0)
@@ -32670,7 +32670,7 @@
 	)
 	(polyline
 		(pts
-			(xy -110.49 -1.27) (xy -110.49 52.07)
+			(xy -116.84 -1.27) (xy -116.84 52.07)
 		)
 		(stroke
 			(width 0)
@@ -33140,7 +33140,7 @@
 	)
 	(polyline
 		(pts
-			(xy -182.88 52.07) (xy -182.88 -1.27)
+			(xy -186.69 52.07) (xy -186.69 -1.27)
 		)
 		(stroke
 			(width 0)
@@ -34019,7 +34019,7 @@
 		(uuid "2eebfe67-3ef9-4725-a072-f2dc55da3e4b")
 	)
 	(label "V_PWR"
-		(at -123.19 10.16 0)
+		(at -125.73 10.16 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -34089,12 +34089,12 @@
 		(uuid "39fa45d0-0d2a-4371-b36a-daf1c7ff0ee9")
 	)
 	(label "PWR_SW"
-		(at -180.34 30.48 0)
+		(at -176.53 30.48 180)
 		(effects
 			(font
 				(size 1.524 1.524)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "3be26b14-fa9c-4731-8271-ce5522cc968d")
 	)
@@ -34979,12 +34979,12 @@
 		(uuid "d890d2da-e840-458c-9241-f17905e9cfc5")
 	)
 	(label "V_BAT"
-		(at -172.72 10.16 0)
+		(at -163.83 10.16 180)
 		(effects
 			(font
 				(size 1.524 1.524)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "da025e0e-13ca-4cb0-81b6-20cc6ce848dd")
 	)
