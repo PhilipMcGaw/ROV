@@ -4442,12 +4442,6 @@
 		(uuid "15d7c231-be6a-4c21-b32d-fdf90d33a17a")
 	)
 	(junction
-		(at 161.29 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1faf7a31-b1b7-4aed-b0e9-79764bb258f4")
-	)
-	(junction
 		(at 156.21 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4460,10 +4454,10 @@
 		(uuid "378f617e-6921-4f40-a7a3-3849b3255da2")
 	)
 	(junction
-		(at 161.29 68.58)
+		(at 163.83 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "82c7ed40-5312-4eb0-bb76-efa18a846ef9")
+		(uuid "56f59dc1-a310-4519-bfe7-7a96f156a501")
 	)
 	(junction
 		(at 121.92 68.58)
@@ -4482,6 +4476,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "be1c42b2-f5d6-4309-9054-0ca6a7dc277c")
+	)
+	(junction
+		(at 163.83 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d0841390-56d4-43ed-adb7-2740b7833111")
 	)
 	(junction
 		(at 179.07 68.58)
@@ -4503,6 +4503,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 68.58) (xy 179.07 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "081b2bf1-e5ab-43b5-9fed-9f0c18f53da1")
+	)
+	(wire
+		(pts
 			(xy 208.28 83.82) (xy 204.47 83.82)
 		)
 		(stroke
@@ -4513,7 +4523,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 68.58) (xy 161.29 68.58)
+			(xy 156.21 68.58) (xy 163.83 68.58)
 		)
 		(stroke
 			(width 0)
@@ -4643,7 +4653,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 68.58) (xy 161.29 69.85)
+			(xy 163.83 68.58) (xy 163.83 69.85)
 		)
 		(stroke
 			(width 0)
@@ -4753,7 +4763,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 76.2) (xy 161.29 76.2)
+			(xy 156.21 76.2) (xy 163.83 76.2)
 		)
 		(stroke
 			(width 0)
@@ -4770,6 +4780,16 @@
 			(type default)
 		)
 		(uuid "8a6cdc5b-7a0b-4fde-80d0-77cb2be39c71")
+	)
+	(wire
+		(pts
+			(xy 163.83 76.2) (xy 173.99 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dd27ad9-d612-4893-a6ea-e3a91fa2d622")
 	)
 	(wire
 		(pts
@@ -4943,7 +4963,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 74.93) (xy 161.29 76.2)
+			(xy 163.83 74.93) (xy 163.83 76.2)
 		)
 		(stroke
 			(width 0)
@@ -5003,16 +5023,6 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 76.2) (xy 173.99 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eab180cb-e152-4286-971b-3beaddea6dde")
-	)
-	(wire
-		(pts
 			(xy 121.92 74.93) (xy 121.92 76.2)
 		)
 		(stroke
@@ -5050,16 +5060,6 @@
 			(type default)
 		)
 		(uuid "f4b143e7-3a92-4402-9bb3-bcc0d73b0d38")
-	)
-	(wire
-		(pts
-			(xy 161.29 68.58) (xy 179.07 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe493877-2603-4d40-a221-47aff83e30c9")
 	)
 	(label "PWM"
 		(at 99.06 73.66 0)
@@ -5588,7 +5588,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 161.29 72.39 0)
+		(at 163.83 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5597,7 +5597,7 @@
 		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-000058636880")
 		(property "Reference" "R2"
-			(at 163.83 71.1199 0)
+			(at 166.37 71.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5606,7 +5606,7 @@
 			)
 		)
 		(property "Value" "0.5"
-			(at 163.83 73.6599 0)
+			(at 166.37 73.6599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5615,7 +5615,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 161.29 72.39 0)
+			(at 163.83 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5624,7 +5624,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rl_group_521_rohs_l.pdf"
-			(at 161.29 72.39 0)
+			(at 163.83 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5633,7 +5633,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 161.29 72.39 0)
+			(at 163.83 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5642,7 +5642,7 @@
 			)
 		)
 		(property "Vendor" "DigiKey"
-			(at 161.29 72.39 90)
+			(at 163.83 72.39 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5651,7 +5651,7 @@
 			)
 		)
 		(property "Part #" "311-0.5LWCT-ND"
-			(at 161.29 72.39 90)
+			(at 163.83 72.39 90)
 			(effects
 				(font
 					(size 1.524 1.524)
