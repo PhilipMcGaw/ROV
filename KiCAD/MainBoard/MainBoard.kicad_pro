@@ -1051,6 +1051,10 @@
     [
       "00070b33-3a41-421e-a0d2-fc46b03d3406",
       "Root"
+    ],
+    [
+      "34563523-9452-41d3-b6fd-77d7c3ddf07b",
+      "Brushless DC Controllers"
     ]
   ],
   "text_variables": {}
