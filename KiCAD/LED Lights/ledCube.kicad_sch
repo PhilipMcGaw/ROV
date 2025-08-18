@@ -5977,6 +5977,15 @@
 				(hide yes)
 			)
 		)
+		(property "Farnell" "3430040"
+			(at 140.97 111.76 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "894a852f-68ba-4c80-84a6-32ec74ab73f8")
 		)

@@ -2520,6 +2520,17 @@
 			(uuid "1310d94b-f269-40ad-acda-d8e85b75c991")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/CXA1304.step"
+			(offset
+				(xyz 0 0 0.1)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 -0 -0)
+			)
+		)
 	)
 	(footprint "Socket_Strips:Socket_Strip_Straight_1x03"
 		(layer "B.Cu")
@@ -3301,44 +3312,6 @@
 				(thickness 0.25)
 			)
 			(justify mirror)
-		)
-	)
-	(dimension
-		(type orthogonal)
-		(layer "F.Cu")
-		(uuid "9070fc55-d1c5-43eb-bce6-684cd9e969a5")
-		(pts
-			(xy 88.9 88.9) (xy 111 89)
-		)
-		(height -3.81)
-		(orientation 0)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 3)
-			(units_format 0)
-			(precision 4)
-			(suppress_zeroes yes)
-		)
-		(style
-			(thickness 0.2)
-			(arrow_length 1.27)
-			(text_position_mode 0)
-			(arrow_direction outward)
-			(extension_height 0.58642)
-			(extension_offset 0.5)
-			(keep_text_aligned yes)
-		)
-		(gr_text "22.1"
-			(at 99.95 83.29 0)
-			(layer "F.Cu")
-			(uuid "9070fc55-d1c5-43eb-bce6-684cd9e969a5")
-			(effects
-				(font
-					(size 1.5 1.5)
-					(thickness 0.3)
-				)
-			)
 		)
 	)
 	(segment
