@@ -1,0 +1,101 @@
+(footprint "LED_0805_BOTTOM_MT(OSRAM)"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "0805 Bottom-Mount LED\n\nFor OSRAM LEDs -- Adapted from Eagle LED library P47")
+	(property "Reference" "REF**"
+		(at -3.81 -1.905 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "13cd9e5c-6d11-451c-a90d-b0cc81b684b6")
+		(effects
+			(font
+				(size 0.93472 0.93472)
+				(thickness 0.08128)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "74e32d5c-68d8-4bc1-9078-2b235421062d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1d317b84-cf96-421e-b9e9-20128953efb1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3c2989fc-a42f-4a96-a246-4503939649b6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start 1.27 -0.885)
+		(end 1.27 -2.155)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b99c2b5b-1583-419a-af60-e258fc6c99a0")
+	)
+	(fp_line
+		(start 1.27 0.885)
+		(end 1.27 2.155)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f87d04c1-fcf8-4082-8a69-4f6ec6525e3a")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 2.7 2.7)
+		(drill 2.7)
+		(layers "*.Cu" "*.Mask")
+		(uuid "24f9e878-37e9-42e0-b100-38cbd2e87f6d")
+	)
+	(pad "A" smd rect
+		(at -2.3 0)
+		(size 1.6 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.0508)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "7d710624-e036-4eab-ac01-ab9c961b42df")
+	)
+	(pad "C" smd rect
+		(at 2.3 0 180)
+		(size 1.6 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.0508)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "00d01f08-8f79-437a-969a-09647a23728a")
+	)
+	(embedded_fonts no)
+)

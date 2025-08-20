@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "OpenROV Topside Interface 2.6A")(type "KiCad")(uri "$(KIPRJMOD)/OpenROV Topside Interface 2.6A.pretty")(options "")(descr ""))
+)

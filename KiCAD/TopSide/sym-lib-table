@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "OpenROV Topside Interface 2.6A-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/OpenROV Topside Interface 2.6A-eagle-import.kicad_sym")(options "")(descr ""))
+)
