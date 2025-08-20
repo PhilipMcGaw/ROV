@@ -908,855 +908,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "OpenROV Topside Interface 2.6A-eagle-import:FRAME_B_L"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#FRAME"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "FRAME B Size , 11 x 17 INCH, Landscape"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "FRAME_B_L_1_0"
-				(polyline
-					(pts
-						(xy 0 279.4) (xy 431.8 279.4) (xy 431.8 0) (xy 0 0) (xy 0 279.4)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 232.8333) (xy 3.81 232.8333)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 186.2667) (xy 3.81 186.2667)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 139.7) (xy 3.81 139.7)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 93.1333) (xy 3.81 93.1333)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 46.5667) (xy 3.81 46.5667)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 275.59) (xy 3.81 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 47.9778 279.4) (xy 47.9778 275.59)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 95.9556 279.4) (xy 95.9556 275.59)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 143.9333 279.4) (xy 143.9333 275.59)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 191.9111 279.4) (xy 191.9111 275.59)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 239.8889 279.4) (xy 239.8889 275.59)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 287.8667 279.4) (xy 287.8667 275.59)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 335.8444 279.4) (xy 335.8444 275.59)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 383.8222 279.4) (xy 383.8222 275.59)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 427.99 275.59) (xy 3.81 275.59)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 427.99 275.59) (xy 427.99 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 427.99 232.8333) (xy 431.8 232.8333)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 427.99 186.2667) (xy 431.8 186.2667)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 427.99 139.7) (xy 431.8 139.7)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 427.99 93.1333) (xy 431.8 93.1333)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 427.99 46.5667) (xy 431.8 46.5667)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "A"
-					(at 1.905 256.1167 0)
-					(effects
-						(font
-							(size 2.54 2.286)
-						)
-					)
-				)
-				(text "B"
-					(at 1.905 209.55 0)
-					(effects
-						(font
-							(size 2.54 2.286)
-						)
-					)
-				)
-				(text "C"
-					(at 1.905 162.9833 0)
-					(effects
-						(font
-							(size 2.54 2.286)
-						)
-					)
-				)
-				(text "D"
-					(at 1.905 116.4167 0)
-					(effects
-						(font
-							(size 2.54 2.286)
-						)
-					)
-				)
-				(text "E"
-					(at 1.905 69.85 0)
-					(effects
-						(font
-							(size 2.54 2.286)
-						)
-					)
-				)
-				(text "F"
-					(at 1.905 23.2833 0)
-					(effects
-						(font
-							(size 2.54 2.286)
-						)
-					)
-				)
-				(text "1"
-					(at 23.9889 277.495 0)
-					(effects
-						(font
-							(size 2.54 2.286)
-						)
-					)
-				)
-				(text "2"
-					(at 71.9667 277.495 0)
-					(effects
-						(font
-							(size 2.54 2.286)
-						)
-					)
-				)
-				(text "3"
-					(at 119.9444 277.495 0)
-					(effects
-						(font
-							(size 2.54 2.286)
-						)
-					)
-				)
-				(text "4"
-					(at 167.9222 277.495 0)
-					(effects
-						(font
-							(size 2.54 2.286)
-						)
-					)
-				)
-				(text "5"
-					(at 215.9 277.495 0)
-					(effects
-						(font
-							(size 2.54 2.286)
-						)
-					)
-				)
-				(text "6"
-					(at 263.8778 277.495 0)
-					(effects
-						(font
-							(size 2.54 2.286)
-						)
-					)
-				)
-				(text "7"
-					(at 311.8556 277.495 0)
-					(effects
-						(font
-							(size 2.54 2.286)
-						)
-					)
-				)
-				(text "8"
-					(at 359.8333 277.495 0)
-					(effects
-						(font
-							(size 2.54 2.286)
-						)
-					)
-				)
-				(text "9"
-					(at 407.8111 277.495 0)
-					(effects
-						(font
-							(size 2.54 2.286)
-						)
-					)
-				)
-				(text "A"
-					(at 429.895 256.1167 0)
-					(effects
-						(font
-							(size 2.54 2.286)
-						)
-					)
-				)
-				(text "B"
-					(at 429.895 209.55 0)
-					(effects
-						(font
-							(size 2.54 2.286)
-						)
-					)
-				)
-				(text "C"
-					(at 429.895 162.9833 0)
-					(effects
-						(font
-							(size 2.54 2.286)
-						)
-					)
-				)
-				(text "D"
-					(at 429.895 116.4167 0)
-					(effects
-						(font
-							(size 2.54 2.286)
-						)
-					)
-				)
-				(text "E"
-					(at 429.895 69.85 0)
-					(effects
-						(font
-							(size 2.54 2.286)
-						)
-					)
-				)
-				(text "F"
-					(at 429.895 23.2833 0)
-					(effects
-						(font
-							(size 2.54 2.286)
-						)
-					)
-				)
-			)
-			(symbol "FRAME_B_L_2_0"
-				(polyline
-					(pts
-						(xy -101.6 35.56) (xy -101.6 0)
-					)
-					(stroke
-						(width 0.1016)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 35.56) (xy -101.6 35.56)
-					)
-					(stroke
-						(width 0.1016)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 22.86) (xy 0 35.56)
-					)
-					(stroke
-						(width 0.1016)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 22.86) (xy 101.6 22.86)
-					)
-					(stroke
-						(width 0.1016)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 15.24) (xy 0 22.86)
-					)
-					(stroke
-						(width 0.1016)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 5.08) (xy 0 15.24)
-					)
-					(stroke
-						(width 0.1016)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 5.08) (xy 71.12 5.08)
-					)
-					(stroke
-						(width 0.1016)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy -101.6 0)
-					)
-					(stroke
-						(width 0.1016)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 5.08)
-					)
-					(stroke
-						(width 0.1016)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 71.12 0)
-					)
-					(stroke
-						(width 0.1016)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 71.12 5.08) (xy 71.12 0)
-					)
-					(stroke
-						(width 0.1016)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 71.12 5.08) (xy 87.63 5.08)
-					)
-					(stroke
-						(width 0.1016)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 71.12 0) (xy 101.6 0)
-					)
-					(stroke
-						(width 0.1016)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 87.63 15.24) (xy 0 15.24)
-					)
-					(stroke
-						(width 0.1016)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 87.63 15.24) (xy 87.63 5.08)
-					)
-					(stroke
-						(width 0.1016)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 87.63 5.08) (xy 101.6 5.08)
-					)
-					(stroke
-						(width 0.1016)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 101.6 35.56) (xy 0 35.56)
-					)
-					(stroke
-						(width 0.1016)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 101.6 35.56) (xy 101.6 22.86)
-					)
-					(stroke
-						(width 0.1016)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 101.6 22.86) (xy 101.6 15.24)
-					)
-					(stroke
-						(width 0.1016)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 101.6 15.24) (xy 87.63 15.24)
-					)
-					(stroke
-						(width 0.1016)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 101.6 15.24) (xy 101.6 5.08)
-					)
-					(stroke
-						(width 0.1016)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 101.6 5.08) (xy 101.6 0)
-					)
-					(stroke
-						(width 0.1016)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "This work is released under the Creative Commons\nAttribution-NonCommercial-Share Alike 3.0\nUnported License.  All derivative works are to\nbe attributed to OpenROV"
-					(at -86.36 2.54 0)
-					(effects
-						(font
-							(size 2.54 2.159)
-						)
-						(justify left bottom)
-					)
-				)
-				(text "OpenROV"
-					(at -73.66 25.4 0)
-					(effects
-						(font
-							(size 6.4516 5.4838)
-						)
-						(justify left bottom)
-					)
-				)
-				(text "TITLE:"
-					(at 1.27 19.05 0)
-					(effects
-						(font
-							(size 2.54 2.54)
-						)
-						(justify left bottom)
-					)
-				)
-				(text "Document Number:"
-					(at 1.27 11.43 0)
-					(effects
-						(font
-							(size 2.54 2.54)
-						)
-						(justify left bottom)
-					)
-				)
-				(text "Date:"
-					(at 1.27 1.27 0)
-					(effects
-						(font
-							(size 2.54 2.54)
-						)
-						(justify left bottom)
-					)
-				)
-				(text "${CURRENT_DATE}"
-					(at 12.7 1.27 0)
-					(effects
-						(font
-							(size 2.54 2.54)
-						)
-						(justify left bottom)
-					)
-				)
-				(text "${PROJECTNAME}"
-					(at 17.78 19.05 0)
-					(effects
-						(font
-							(size 2.54 2.54)
-						)
-						(justify left bottom)
-					)
-				)
-				(text "Sheet:"
-					(at 72.39 1.27 0)
-					(effects
-						(font
-							(size 2.54 2.54)
-						)
-						(justify left bottom)
-					)
-				)
-				(text "${#}/${##}"
-					(at 86.36 1.27 0)
-					(effects
-						(font
-							(size 2.54 2.54)
-						)
-						(justify left bottom)
-					)
-				)
-				(text "REV:"
-					(at 88.9 11.43 0)
-					(effects
-						(font
-							(size 2.54 2.54)
-						)
-						(justify left bottom)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "OpenROV Topside Interface 2.6A-eagle-import:GND"
 			(power)
 			(exclude_from_sim no)
@@ -3433,17 +2584,6 @@
 		)
 		(uuid "1545e001-0ecc-478e-9d08-26d1545d9f6d")
 	)
-	(text "Initial Prototype"
-		(exclude_from_sim no)
-		(at 309.88 50.8 0)
-		(effects
-			(font
-				(size 2.54 2.159)
-			)
-			(justify left bottom)
-		)
-		(uuid "2f707953-f1cf-4b18-9d0f-453d2cffaccf")
-	)
 	(text "Homeplug\nConnect"
 		(exclude_from_sim no)
 		(at 378.46 182.88 0)
@@ -3454,17 +2594,6 @@
 			(justify left bottom)
 		)
 		(uuid "33e7b091-a6b2-46cc-b916-915d77ce945e")
-	)
-	(text "Changes"
-		(exclude_from_sim no)
-		(at 327.914 41.91 0)
-		(effects
-			(font
-				(size 2.54 2.159)
-			)
-			(justify left bottom)
-		)
-		(uuid "34d13458-a89c-4264-b9ed-fd5874de340d")
 	)
 	(text "USB Power\nConnection"
 		(exclude_from_sim no)
@@ -3487,17 +2616,6 @@
 			(justify left bottom)
 		)
 		(uuid "3f6bd4c9-2689-4a90-96c9-c635ff3c306f")
-	)
-	(text "Date"
-		(exclude_from_sim no)
-		(at 270.002 42.672 0)
-		(effects
-			(font
-				(size 2.54 2.159)
-			)
-			(justify left bottom)
-		)
-		(uuid "537e4125-ad81-4eac-ba0a-b6c8ec2ca539")
 	)
 	(text "Optional Power Switch Connector"
 		(exclude_from_sim no)
@@ -3532,20 +2650,9 @@
 		)
 		(uuid "69274a41-b869-452a-b4ab-9a799b3f662e")
 	)
-	(text "RWH"
-		(exclude_from_sim no)
-		(at 289.56 51.054 0)
-		(effects
-			(font
-				(size 2.54 2.159)
-			)
-			(justify left bottom)
-		)
-		(uuid "6c70dca6-64e3-4cce-bf1e-dfb8bbc8216b")
-	)
 	(text "OpenROV Topside Interface Board 2.6A"
 		(exclude_from_sim no)
-		(at 35.56 40.64 0)
+		(at 263.906 265.938 0)
 		(effects
 			(font
 				(size 7.62 6.477)
@@ -3553,17 +2660,6 @@
 			(justify left bottom)
 		)
 		(uuid "73f4a2ec-7cef-4bd6-a806-ab6b07ddf654")
-	)
-	(text "11 Feb 2014"
-		(exclude_from_sim no)
-		(at 265.43 58.674 0)
-		(effects
-			(font
-				(size 2.54 2.159)
-			)
-			(justify left bottom)
-		)
-		(uuid "7782ed42-8896-4fd7-b3cb-d34c60d6ab97")
 	)
 	(text "Header socket\nfor Tenda V2.0\nHomeplug Adapter"
 		(exclude_from_sim no)
@@ -3587,39 +2683,6 @@
 		)
 		(uuid "9e3f7411-f8a5-4a8a-bbc6-4b67eb1549c0")
 	)
-	(text "Revision History"
-		(exclude_from_sim no)
-		(at 317.5 33.02 0)
-		(effects
-			(font
-				(size 3.81 3.2385)
-			)
-			(justify left bottom)
-		)
-		(uuid "a7a6e94b-792d-4701-94d0-f92fb9451e39")
-	)
-	(text "2.6A"
-		(exclude_from_sim no)
-		(at 253.746 58.42 0)
-		(effects
-			(font
-				(size 2.54 2.159)
-			)
-			(justify left bottom)
-		)
-		(uuid "a85b14fc-2bd3-4aa6-aa98-9fee5a91e247")
-	)
-	(text "Rev"
-		(exclude_from_sim no)
-		(at 252.984 42.164 0)
-		(effects
-			(font
-				(size 2.54 2.159)
-			)
-			(justify left bottom)
-		)
-		(uuid "abdf80a8-d8d2-4f50-850a-a9b318909923")
-	)
 	(text "--"
 		(exclude_from_sim no)
 		(at 436.88 289.56 0)
@@ -3631,50 +2694,6 @@
 		)
 		(uuid "b23f5990-9471-487f-9cc0-1fd8cf39d006")
 	)
-	(text "2.6"
-		(exclude_from_sim no)
-		(at 254 50.8 0)
-		(effects
-			(font
-				(size 2.54 2.159)
-			)
-			(justify left bottom)
-		)
-		(uuid "ca0277fa-5905-470c-916e-bb5893982ab6")
-	)
-	(text "26 Nov 2013"
-		(exclude_from_sim no)
-		(at 265.43 51.054 0)
-		(effects
-			(font
-				(size 2.54 2.159)
-			)
-			(justify left bottom)
-		)
-		(uuid "ca91d41e-e003-490b-a17a-e249f3789470")
-	)
-	(text "No schematic changes from Rev 2.6.\nPositions of J1 and J2 adjusted. Longer engagement length on headers J3 and J4.\nRevised silkscreen and soldermask.  Hole for optional standoff."
-		(exclude_from_sim no)
-		(at 304.8 66.04 0)
-		(effects
-			(font
-				(size 2.54 2.159)
-			)
-			(justify left bottom)
-		)
-		(uuid "d5241f11-c023-440a-93fe-425446c28ab2")
-	)
-	(text "RWH"
-		(exclude_from_sim no)
-		(at 289.56 58.674 0)
-		(effects
-			(font
-				(size 2.54 2.159)
-			)
-			(justify left bottom)
-		)
-		(uuid "d828a345-5e06-43fb-afc8-fee8ab177511")
-	)
 	(text "Ethernet\nConnect"
 		(exclude_from_sim no)
 		(at 378.46 132.08 0)
@@ -3685,17 +2704,6 @@
 			(justify left bottom)
 		)
 		(uuid "e232d230-f124-451a-91d4-8bcdce173264")
-	)
-	(text "Engr"
-		(exclude_from_sim no)
-		(at 290.322 42.672 0)
-		(effects
-			(font
-				(size 2.54 2.159)
-			)
-			(justify left bottom)
-		)
-		(uuid "edb374d9-6770-4e26-a7a5-f69202a61c0b")
 	)
 	(junction
 		(at 246.38 154.94)
@@ -3815,16 +2823,6 @@
 	)
 	(polyline
 		(pts
-			(xy 248.92 35.56) (xy 248.92 25.4)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "0c6093aa-8894-4601-a7e3-aaf227a92f6d")
-	)
-	(polyline
-		(pts
 			(xy 27.94 251.46) (xy 27.94 241.3)
 		)
 		(stroke
@@ -3852,16 +2850,6 @@
 			(type solid)
 		)
 		(uuid "1774b15c-3e1d-4c3a-8e6a-9043727c09db")
-	)
-	(polyline
-		(pts
-			(xy 287.02 109.22) (xy 302.26 109.22)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "1cca9dd1-1c39-4b8d-aadf-e6e59141d635")
 	)
 	(wire
 		(pts
@@ -3892,16 +2880,6 @@
 			(type solid)
 		)
 		(uuid "20343df8-e4e2-4d2e-b84c-f7b0fe1b530a")
-	)
-	(polyline
-		(pts
-			(xy 248.92 68.58) (xy 441.96 68.58)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "20741f82-838e-402b-8f80-5827b67b55d3")
 	)
 	(wire
 		(pts
@@ -3953,16 +2931,6 @@
 		)
 		(uuid "2c6549ba-8d6c-4f1c-a5a3-fad68ffe938c")
 	)
-	(polyline
-		(pts
-			(xy 302.26 35.56) (xy 302.26 109.22)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "302bd0e3-e014-42af-ba0c-dc02fe226fa1")
-	)
 	(wire
 		(pts
 			(xy 368.3 127) (xy 368.3 124.46)
@@ -3983,16 +2951,6 @@
 		)
 		(uuid "340c87a9-0529-4906-890a-e5f0f808d65d")
 	)
-	(polyline
-		(pts
-			(xy 264.16 109.22) (xy 287.02 109.22)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "36e39482-2eb8-49d9-bf36-9fdb689e9ae2")
-	)
 	(wire
 		(pts
 			(xy 96.52 175.26) (xy 96.52 172.72)
@@ -4002,26 +2960,6 @@
 			(type solid)
 		)
 		(uuid "39c3a71f-82bb-476e-a1b6-025aa81585bd")
-	)
-	(polyline
-		(pts
-			(xy 302.26 35.56) (xy 441.96 35.56)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "3c84e6c3-4238-47ac-9035-6a97df79e2ad")
-	)
-	(polyline
-		(pts
-			(xy 441.96 35.56) (xy 441.96 45.72)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "40850898-5d23-4ced-860e-30f250de21bf")
 	)
 	(wire
 		(pts
@@ -4052,16 +2990,6 @@
 			(type solid)
 		)
 		(uuid "47aed679-39dd-4837-84c7-53bff779f2ca")
-	)
-	(polyline
-		(pts
-			(xy 248.92 45.72) (xy 248.92 35.56)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "48739347-6bb4-4f00-9803-b2b603ec4c15")
 	)
 	(wire
 		(pts
@@ -4113,36 +3041,6 @@
 		)
 		(uuid "4fa731ac-f6b0-4fd9-9d73-e324ec30f4c1")
 	)
-	(polyline
-		(pts
-			(xy 441.96 53.34) (xy 441.96 68.58)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "509a2266-1712-412a-925f-c6bff135fe2e")
-	)
-	(polyline
-		(pts
-			(xy 287.02 35.56) (xy 302.26 35.56)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "5108ffd4-3432-4041-9a1f-de1e382d9090")
-	)
-	(polyline
-		(pts
-			(xy 264.16 35.56) (xy 287.02 35.56)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "53ff437d-50d6-42dc-a6fc-4d71d8b79b36")
-	)
 	(wire
 		(pts
 			(xy 370.84 154.94) (xy 370.84 160.02)
@@ -4183,16 +3081,6 @@
 		)
 		(uuid "622f6ee1-da66-41cd-a78c-6a0849e2f45e")
 	)
-	(polyline
-		(pts
-			(xy 264.16 35.56) (xy 264.16 109.22)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "6450a3bc-5fed-45fa-b7c6-7ec886e05ef1")
-	)
 	(wire
 		(pts
 			(xy 368.3 182.88) (xy 368.3 185.42)
@@ -4232,16 +3120,6 @@
 			(type solid)
 		)
 		(uuid "6b537e4d-0564-4ef4-9ae6-6446c1857632")
-	)
-	(polyline
-		(pts
-			(xy 248.92 109.22) (xy 264.16 109.22)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "6ea9aa43-cabc-4d98-84d5-083ee86f77ee")
 	)
 	(polyline
 		(pts
@@ -4293,16 +3171,6 @@
 		)
 		(uuid "81994e6d-604e-4444-90cf-b04717dbefed")
 	)
-	(polyline
-		(pts
-			(xy 248.92 53.34) (xy 441.96 53.34)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "8671e4e3-7f9d-4c24-b6f6-9270344e2872")
-	)
 	(wire
 		(pts
 			(xy 175.26 162.56) (xy 175.26 154.94)
@@ -4322,16 +3190,6 @@
 			(type solid)
 		)
 		(uuid "92f4b6aa-2761-4cfa-bacb-dfc07a9ca623")
-	)
-	(polyline
-		(pts
-			(xy 302.26 109.22) (xy 441.96 109.22)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "95a03ff7-563e-4bee-bcb3-a18a90f9fe87")
 	)
 	(wire
 		(pts
@@ -4363,16 +3221,6 @@
 		)
 		(uuid "9b157583-db93-426c-b7e7-f1dbfda97abf")
 	)
-	(polyline
-		(pts
-			(xy 248.92 25.4) (xy 441.96 25.4)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "9ef0db9c-4a23-42ef-a35f-7bf438da8329")
-	)
 	(wire
 		(pts
 			(xy 266.7 233.68) (xy 266.7 231.14)
@@ -4393,16 +3241,6 @@
 		)
 		(uuid "a2103431-588a-447f-962a-307441673f9b")
 	)
-	(polyline
-		(pts
-			(xy 248.92 35.56) (xy 264.16 35.56)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "a7b2c873-c7c6-4393-b505-d47952f315d9")
-	)
 	(wire
 		(pts
 			(xy 165.1 154.94) (xy 175.26 154.94)
@@ -4412,16 +3250,6 @@
 			(type solid)
 		)
 		(uuid "a86eb39d-e118-4691-bfb4-1568310ca9d8")
-	)
-	(polyline
-		(pts
-			(xy 248.92 68.58) (xy 248.92 53.34)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "acf1b65f-8585-44ba-8594-d84c8f2bdd13")
 	)
 	(wire
 		(pts
@@ -4473,16 +3301,6 @@
 		)
 		(uuid "bb30062f-d5da-478b-b57b-d760223fcb03")
 	)
-	(polyline
-		(pts
-			(xy 287.02 35.56) (xy 287.02 109.22)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "bc60ecb4-454c-4cbb-83d7-6c5333d92b76")
-	)
 	(wire
 		(pts
 			(xy 91.44 175.26) (xy 91.44 172.72)
@@ -4492,16 +3310,6 @@
 			(type solid)
 		)
 		(uuid "be225288-4b37-4dfb-8c80-4ddb69fcb2f6")
-	)
-	(polyline
-		(pts
-			(xy 441.96 25.4) (xy 441.96 35.56)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "c080f1c1-8bf9-4cb2-ab39-1f727b83c89c")
 	)
 	(wire
 		(pts
@@ -4523,16 +3331,6 @@
 		)
 		(uuid "c27ae967-eb92-4bc1-85ab-cd9e990bd637")
 	)
-	(polyline
-		(pts
-			(xy 441.96 45.72) (xy 441.96 53.34)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "c4128d26-9413-41ec-97df-38fd84d04aac")
-	)
 	(wire
 		(pts
 			(xy 101.6 165.1) (xy 101.6 167.64)
@@ -4543,16 +3341,6 @@
 		)
 		(uuid "c7439bd2-4454-423e-b3fe-9be319efe521")
 	)
-	(polyline
-		(pts
-			(xy 441.96 68.58) (xy 441.96 109.22)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "caae9a91-5949-46b5-9786-8d0cacb86839")
-	)
 	(wire
 		(pts
 			(xy 368.3 152.4) (xy 373.38 152.4)
@@ -4562,26 +3350,6 @@
 			(type solid)
 		)
 		(uuid "cd76a3ef-f4c4-4214-afb6-95589e8692f4")
-	)
-	(polyline
-		(pts
-			(xy 248.92 109.22) (xy 248.92 68.58)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "cd85edc9-9313-4718-941b-5c87d8a88fa0")
-	)
-	(polyline
-		(pts
-			(xy 248.92 45.72) (xy 441.96 45.72)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "cf43099b-f64d-4c21-a9ec-8914490ef6ec")
 	)
 	(wire
 		(pts
@@ -4672,16 +3440,6 @@
 			(type solid)
 		)
 		(uuid "fab6300a-dc7f-406b-9eb4-14a1b8e7f018")
-	)
-	(polyline
-		(pts
-			(xy 248.92 53.34) (xy 248.92 45.72)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "fc2e04f1-a099-470b-891c-72ae7c2d37e4")
 	)
 	(wire
 		(pts
@@ -5385,69 +4143,6 @@
 				(path "/1cf0d249-a5ab-4bb0-b6a6-3520e9d1ee28"
 					(reference "J3")
 					(unit 5)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "OpenROV Topside Interface 2.6A-eagle-import:FRAME_B_L")
-		(at 17.78 297.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5154d9ed-f612-40fe-862a-f5562e26a11f")
-		(property "Reference" "#FRAME1"
-			(at 17.78 297.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "FRAME_B_L"
-			(at 17.78 297.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 17.78 297.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 17.78 297.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 17.78 297.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project ""
-				(path "/1cf0d249-a5ab-4bb0-b6a6-3520e9d1ee28"
-					(reference "#FRAME1")
-					(unit 1)
 				)
 			)
 		)
@@ -6265,69 +4960,6 @@
 				(path "/1cf0d249-a5ab-4bb0-b6a6-3520e9d1ee28"
 					(reference "J4")
 					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "OpenROV Topside Interface 2.6A-eagle-import:FRAME_B_L")
-		(at 342.9 297.18 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "793fff47-5f6c-4c72-b58a-fa7772a70e18")
-		(property "Reference" "#FRAME1"
-			(at 342.9 297.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "FRAME_B_L"
-			(at 342.9 297.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 342.9 297.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 342.9 297.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 342.9 297.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project ""
-				(path "/1cf0d249-a5ab-4bb0-b6a6-3520e9d1ee28"
-					(reference "#FRAME1")
-					(unit 2)
 				)
 			)
 		)
