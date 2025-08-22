@@ -33062,7 +33062,7 @@
 		(uuid "34e3b969-13c3-4120-861d-b26fc97a3eb3")
 	)
 	(label "CH11"
-		(at 208.28 113.03 180)
+		(at 208.28 118.11 180)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -33140,16 +33140,6 @@
 			(justify left bottom)
 		)
 		(uuid "4206cc71-c1f1-41bf-b547-ae9a5a219a7d")
-	)
-	(label "CH7"
-		(at 208.28 115.57 180)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right bottom)
-		)
-		(uuid "440777f7-2f7d-418c-a0ff-94ec7ae39ff3")
 	)
 	(label "ADC_V"
 		(at 331.47 223.52 0)
@@ -33311,8 +33301,18 @@
 		)
 		(uuid "6a800337-8bc6-40ae-9cc1-8eb7bba377db")
 	)
-	(label "LED1"
+	(label "CH9"
 		(at 349.25 49.53 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "6bc6b342-2079-4a0e-a4d6-0c96173f01e2")
+	)
+	(label "LED1"
+		(at 358.14 38.1 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -33471,6 +33471,26 @@
 		)
 		(uuid "873bc953-bed2-426c-9c94-8fc10216ae76")
 	)
+	(label "CH8"
+		(at 349.25 46.99 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "891f7e08-6265-4998-a4d4-88a5841a2812")
+	)
+	(label "CH9"
+		(at 208.28 113.03 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right bottom)
+		)
+		(uuid "8c118785-3329-47de-a6b4-c41ad27754f2")
+	)
 	(label "T+"
 		(at 130.81 246.38 180)
 		(effects
@@ -33520,6 +33540,16 @@
 			(justify left bottom)
 		)
 		(uuid "9c2416a1-5c00-49f5-9664-56c1eb764b73")
+	)
+	(label "CH8"
+		(at 208.28 110.49 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right bottom)
+		)
+		(uuid "a6ad9e05-bd1b-4add-ab02-7f47e6b60758")
 	)
 	(label "MOTOR_4C"
 		(at 261.62 146.05 0)
@@ -33652,7 +33682,7 @@
 		(uuid "c6ccabf7-15fc-4754-a774-00e336ff82ec")
 	)
 	(label "LED2"
-		(at 349.25 46.99 0)
+		(at 358.14 35.56 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -33772,7 +33802,7 @@
 		(uuid "e4d5ddb0-8040-4555-b643-c9ffbdb989be")
 	)
 	(label "CH10"
-		(at 208.28 110.49 180)
+		(at 208.28 115.57 180)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -33910,16 +33940,6 @@
 			(justify left bottom)
 		)
 		(uuid "f9948f6e-d39c-45f3-9c2c-3e68f4b328dc")
-	)
-	(label "CH6"
-		(at 208.28 118.11 180)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right bottom)
-		)
-		(uuid "feb1c43b-d810-4e57-9a27-d0ea6efd3c74")
 	)
 	(label "V_BAT"
 		(at 302.26 210.82 0)
